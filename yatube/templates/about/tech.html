@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block head %}
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link
+    rel="stylesheet"
+    href="/static/css/about.css">
+{% endblock head %}
+{% block title %}Технологии{% endblock %}
+{% block content %}
+  <div class="row">
+    <h1>Технологии проекта</h1>
+    <aside class="col-12 col-md-3">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <a href="#python">Python</a>
+        </li>
+        <li class="list-group-item">
+          <a href="#django">Django</a>
+        </li>
+        <li class="list-group-item">
+          <a href="#sql">SQL</a>
+        </li>
+        <li class="list-group-item">
+          <a href="#html-css">HTML и CSS</a>
+        </li>
+      </ul>
+    </aside>
+    <article class="col-12 col-md-9">
+      <p id="python"
+         class="text-block mt-4">
+        Python – современный язык программирования,
+        работающий на всех распространенных операционных системах.
+        Этот язык очень гибкий и мощный.
+        Синтаксис Python интуитивно понятен.
+        Он подходит как для первого знакомства с программированием,
+        так и для реализации больших коммерческих проектов.
+        Для меня изучение программирования на других языках
+        никогда не было таким интересным и понятным как на Python.
+        Python – это язык на котором написан backend этого сайта.
+        В начале изучения Python мне очень помогла
+        бесплатная часть курса Яндекс Практикума
+        “Python Разработчик”.
+      </p>
+      <p id="django"
+         class="text-block">
+        Django framework – это технология,
+        которая берет на себя всю рутинную работу web разработчика.
+        Django – каркас этого сайта.
+        Я изучаю Django в группе на Яндекс Практикум.
+        И это моя новая ступень в окружении интересных людей.
+        Нам помогает профессионалы Практикума
+        – куратор, наставники, код-ревьюеры.
+      </p>
+      <p id="sql"
+         class="text-block">
+        SQL – язык запросов реляционных баз данных.
+        Сейчас ни один сайт, online приложение не обходится без SQL.
+      </p>
+      <p id="html-css"
+         class="text-block">
+        HTML и CSS – это frontend любого сайта.
+        Этот сайт не исключение. 
+        Эти технологии я изучал на курсе 
+        freeCodeCamp “Responsive Web Design”. 
+        Я написал
+        <a href="https://kr-aleksey.github.io/PortfolioPage/"
+           target="_blank">
+        итоговый проект</a>
+        и получил
+        <a href="https://www.freecodecamp.org/certification/kr_aleksey/responsive-web-design"
+           target="_blank">
+          сертификат</a>.
+      </p>
+    </article>
+  </div>
+{% endblock %}

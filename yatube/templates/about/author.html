@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block head %}
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link
+    rel="stylesheet"
+    href="/static/css/about.css">
+{% endblock head %}
+{% block title %}Об авторе проекта{% endblock title %}
+{% block content %}
+  <h1>Привет, я автор.</h1>
+  <h2>Меня зовут Алексей, я изучаю Python!</h2>
+  <section>
+    <p class="text-block mt-4">
+      История моего погружения в мир Python не простая.
+      Я изучал разные языки и технологии.
+      Но до Python ни один язык программирования так и
+      не привел меня в разработку.
+      В итоге я стал работать в области телекоммуникаций.
+      Занимался сетями передачи данных масштаба города
+      крупнейшего провайдера в нашей стране.
+    </p>
+    <p class="text-block">
+      У меня есть сын, Михаил.
+      Он учится в школе и увлекается программированием.
+      В 2020 году Миша рассказал мне,
+      как он узнал о Python и пытается его изучать.
+      На то время Миша учился в 9 классе.
+      Миша показал мне простенькую программку,
+      которую он написал.
+      Я заинтересовался этим языком и начал его изучать.
+    </p>
+    <p class="text-block">
+      И вот теперь я разрабатываю web-приложение на
+      Python + Django для автоматизации производственных
+      процессов на заводе пищевой упаковки и подготавливаю
+      Мишу к ЕГЭ по информатике.
+      Чтобы систематизировать и углубить свои знания поступил
+      на курс Яндекс Практикум “Python разработчик”.
+      Миша, спасибо тебе огромное за знакомство с Python!
+    </p>
+    <p class="text-block">
+      Я хочу поблагодарить мою жену Александру
+      за ее терпение, понимание и поддержку!
+      Обучение занимает все мое свободное время.
+      Ни смотря на это она поддерживает меня
+      и относится с пониманием.
+      Кисуля, у нас все получится!
+    </p>
+  </section>
+
+  <section class="contact-block">
+    <a class="contact-link"
+       href="https://github.com/kr-aleksey"
+       target="_blank" id="profile-link"
+    ><i class="fab fa-github"></i> GitHub</a>
+    <a class="contact-link"
+       href="mailto:kravtsun.aleksey@gmail.com"
+    ><i class="fas fa-at"></i> Send a mail</a>
+    <a class="contact-link"
+       href="tel:+79187537553"
+    ><i class="fas fa-mobile-alt"></i> Call me</a>
+  </section>
+
+{% endblock content %}
