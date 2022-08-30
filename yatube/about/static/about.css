@@ -1,0 +1,24 @@
+a {
+  text-decoration: none;
+}
+
+.text-block {
+  text-indent: 1em;
+  text-align: justify;
+}
+
+.contact-block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  padding: 25px;
+  transition: transform 0.3s;
+  max-width: 100%;
+}
+
+.contact-link:hover {
+  transform: translateY(5px);
+}
